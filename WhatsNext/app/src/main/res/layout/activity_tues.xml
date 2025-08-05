@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lyellow"
+    tools:context=".TuesActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="TUESDAY"
+        android:textSize="50dp"
+android:textColor="@color/mustard"
+        android:layout_marginTop="50dp">
+
+
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/tuesgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+android:textColor="@color/mustard"
+
+        >
+        <RadioButton
+            android:id="@+id/tuesnine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9:10-10 pm"
+            android:textSize="20dp"
+            android:textColor="@color/mustard">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/tuesten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:10-11 pm"
+            android:textSize="20dp"
+            android:textColor="@color/mustard">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/tueseleven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:10-12 pm"
+            android:textSize="20dp"
+            android:textColor="@color/mustard">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/tuestwelve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:10-1 pm"
+            android:textSize="20dp"
+            android:textColor="@color/mustard">
+        </RadioButton>
+
+
+        <RadioButton
+            android:id="@+id/tuesone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-2 pm"
+            android:textSize="20dp"
+            android:textColor="@color/mustard">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/tuestwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2-2:50 pm"
+            android:textSize="20dp"
+            android:textColor="@color/mustard">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/tuesthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3-3:50 pm"
+            android:textSize="20dp"
+            android:textColor="@color/mustard">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/tuesfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4-4:50 pm"
+            android:textSize="20dp"
+            android:textColor="@color/mustard">
+        </RadioButton>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/tuestimetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:textSize="24dp"
+        android:textColor="@color/mustard"
+        android:textAlignment="center"
+        >
+
+    </TextView>
+
+
+</LinearLayout>

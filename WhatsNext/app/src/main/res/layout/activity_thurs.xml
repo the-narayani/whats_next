@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lblu"
+    tools:context=".ThursActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="THURSDAY"
+        android:textSize="50dp"
+android:textColor="@color/dblu"
+        android:layout_marginTop="50dp">
+
+
+    </TextView>
+
+    <RadioGroup
+        android:id="@+id/thursgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/dblu"
+        >
+        <RadioButton
+            android:id="@+id/thursnine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9:10-10 pm"
+            android:textSize="20dp"
+            android:textColor="@color/dblu">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/thursten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:10-11 pm"
+            android:textSize="20dp"
+            android:textColor="@color/dblu">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/thurseleven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11:10-12 pm"
+            android:textSize="20dp"
+            android:textColor="@color/dblu">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/thurstwelve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:10-1 pm"
+            android:textColor="@color/dblu"
+            android:textSize="20dp">
+        </RadioButton>
+
+
+        <RadioButton
+            android:id="@+id/thursone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1-2 pm"
+            android:textSize="20dp"
+            android:textColor="@color/dblu">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/thurstwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2-2:50 pm"
+            android:textSize="20dp"
+            android:textColor="@color/dblu">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/thursthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3-3:50 pm"
+            android:textSize="20dp"
+            android:textColor="@color/dblu">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/thursfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4-4:50 pm"
+            android:textSize="20dp"
+            android:textColor="@color/dblu">
+        </RadioButton>
+    </RadioGroup>
+    <TextView
+        android:id="@+id/thurstimetv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:textSize="24dp"
+        android:textColor="@color/dblu"
+        android:textAlignment="center"
+        >
+
+    </TextView>
+
+
+</LinearLayout>

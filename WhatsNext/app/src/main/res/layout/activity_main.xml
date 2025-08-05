@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lecture Schedule"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="100dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+         />
+
+    <RadioGroup
+        android:id="@+id/daygroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:scrollbarSize="10dp">
+        <RadioButton
+            android:id="@+id/mon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Monday"
+            android:textSize="24dp"
+            android:background="@color/lred">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/tues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Tuesday"
+            android:textSize="24dp"
+            android:background="@color/yellow">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/wed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Wednesday  "
+            android:textSize="24dp"
+            android:background="@color/green">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/thurs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Thursday"
+            android:textSize="24dp"
+            android:background="@color/indigo">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/fri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Friday"
+            android:textSize="24dp"
+            android:background="@color/violet">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/daytv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:textSize="32dp"
+
+        ></TextView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/timetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="30dp"
+            android:textSize="24dp"
+
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
